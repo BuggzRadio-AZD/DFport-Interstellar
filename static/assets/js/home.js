@@ -172,7 +172,7 @@ document.addEventListener("DOMContentLoaded", event => {
 });
 // Splash texts
 const SplashT = [
-  "Over 8 Million Users since 2023",
+  "Tis' Now a Dumpster Fire, Sorry Bubbo",
   "Fastest growing proxy server",
   "Made by xBubbo, minimized by Buggz",
 ];
