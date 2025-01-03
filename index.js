@@ -142,8 +142,8 @@ server.on("upgrade", (req, socket, head) => {
 server.on("listening", () => {
     console.log('');
   console.log(chalk.green(`🌍 Interstellar Server is running on (Make the port public if in codespaces!!!):`));
-    console.log('  http://localhost:${PORT}');
-    console.log('  http://172.0.0.1:${PORT}');
+  console.log('');
+  console.log(chalk.green(`   http://localhost:${PORT}`));
     console.log('');
     console.log(chalk.blue(`All credit goes to @xBubbo for making this, all I did was minimize it.`));
     
