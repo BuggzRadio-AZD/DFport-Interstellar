@@ -139,7 +139,9 @@ server.on("upgrade", (req, socket, head) => {
 });
 
 server.on("listening", () => {
-  console.log(chalk.green(`🌍 Server is running on http://localhost:${PORT} Thank bubbo for making this!!!`));
+  console.log(chalk.green(`🌍 Server is running on http://localhost:${PORT}`));
+  console.log(chalk.blue(`All credit goes to @xBubbo for making this, all I did was minimize it.`));
+
 });
 
 server.listen({ port: PORT });
