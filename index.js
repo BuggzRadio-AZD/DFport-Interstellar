@@ -145,6 +145,9 @@ server.on("listening", () => {
   console.log('');
   console.log(chalk.green(`   http://localhost:${PORT}`));
     console.log('');
+    console.log(chalk.green(`🚫 Ctrl+C to Stop Server`));
+    console.log('');
+
     console.log(chalk.blue(`All credit goes to @xBubbo for making this, all I did was minimize it.`));
     
 
