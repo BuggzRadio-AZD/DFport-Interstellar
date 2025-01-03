@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import http from "node:http";
 import path from "node:path";
+import { hostname } from "node:os";
 import { createBareServer } from "@nebula-services/bare-server-node";
 import chalk from "chalk";
 import cookieParser from "cookie-parser";
@@ -145,6 +146,7 @@ server.on("listening", () => {
     console.log('  http://172.0.0.1:${PORT}');
     console.log('');
     console.log(chalk.blue(`All credit goes to @xBubbo for making this, all I did was minimize it.`));
+    
 
 });
 
